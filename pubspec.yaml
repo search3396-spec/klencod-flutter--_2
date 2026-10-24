@@ -1,0 +1,28 @@
+name: file_tools
+description: Arabic and English offline file tools for Android.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  file_picker: ^8.1.7
+  path_provider: ^2.1.5
+  image: ^4.5.4
+  pdf: ^3.11.3
+  archive: ^4.0.7
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
